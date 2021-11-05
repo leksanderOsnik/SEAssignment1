@@ -7,6 +7,11 @@ public class Module {
     private List<Student> studentList;
     private List<Course> courseList;
 
+    public Module(String moduleName, String moduleId){
+        this.moduleName = moduleName;
+        this.moduleId = moduleId;
+    }
+
     public Module(String moduleName, String moduleId, List<Student> studentList, List<Course> courseList) {
         this.moduleName = moduleName;
         this.moduleId = moduleId;

@@ -13,6 +13,13 @@ public class Student {
     private List<Course> courseList;
     private List<Module> moduleList;
 
+    public Student(String name, int age, LocalDate DOB, long ID){
+        this.name = name;
+        this.age = age;
+        this.DOB = DOB;
+        this.ID = ID;
+    }
+
     public Student(String name, int age, LocalDate DOB, long ID, List<Course> courseList, List<Module> moduleList) {
         this.name = name;
         this.age = age;
