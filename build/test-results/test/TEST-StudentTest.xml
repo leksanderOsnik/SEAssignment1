@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StudentTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-11-05T22:00:25" hostname="DESKTOP-80T8MTO" time="0.019">
+  <properties/>
+  <testcase name="testGetID()" classname="StudentTest" time="0.0"/>
+  <testcase name="testSetID()" classname="StudentTest" time="0.001"/>
+  <testcase name="testGetName()" classname="StudentTest" time="0.0"/>
+  <testcase name="testGetCourseList()" classname="StudentTest" time="0.0"/>
+  <testcase name="testSetCourseList()" classname="StudentTest" time="0.001"/>
+  <testcase name="testGetModuleList()" classname="StudentTest" time="0.001"/>
+  <testcase name="testGetUsername()" classname="StudentTest" time="0.01"/>
+  <testcase name="testGetAge()" classname="StudentTest" time="0.001"/>
+  <testcase name="testGetDOB()" classname="StudentTest" time="0.001"/>
+  <testcase name="testSetModuleList()" classname="StudentTest" time="0.0"/>
+  <testcase name="testSetName()" classname="StudentTest" time="0.0"/>
+  <testcase name="testSetAge()" classname="StudentTest" time="0.0"/>
+  <testcase name="testSetDOB()" classname="StudentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

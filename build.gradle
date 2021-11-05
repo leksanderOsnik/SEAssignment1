@@ -2,7 +2,6 @@ plugins {
     id 'groovy'
     id 'java'
     id 'jacoco'
-    id 'application'
     id 'maven-publish'
     id 'war'
 }

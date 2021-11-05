@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CourseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-05T21:06:59" hostname="DESKTOP-80T8MTO" time="0.009">
+<testsuite name="CourseTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-11-05T22:00:25" hostname="DESKTOP-80T8MTO" time="0.022">
   <properties/>
-  <testcase name="testSetStudentList()" classname="CourseTest" time="0.009"/>
+  <testcase name="testSetStudentList()" classname="CourseTest" time="0.011"/>
+  <testcase name="testGetEndDate()" classname="CourseTest" time="0.0"/>
+  <testcase name="testGetStartDate()" classname="CourseTest" time="0.0"/>
+  <testcase name="testGetCourseName()" classname="CourseTest" time="0.0"/>
+  <testcase name="testSetStartDate()" classname="CourseTest" time="0.001"/>
+  <testcase name="testGetStudentList()" classname="CourseTest" time="0.001"/>
+  <testcase name="testSetCourseName()" classname="CourseTest" time="0.0"/>
+  <testcase name="testSetEndDate()" classname="CourseTest" time="0.001"/>
+  <testcase name="testGetModuleList()" classname="CourseTest" time="0.001"/>
+  <testcase name="testSetModuleList()" classname="CourseTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

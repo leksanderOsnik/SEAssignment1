@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ModuleTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-11-05T22:00:25" hostname="DESKTOP-80T8MTO" time="0.006">
+  <properties/>
+  <testcase name="testSetStudentList()" classname="ModuleTest" time="0.0"/>
+  <testcase name="testGetCourseList()" classname="ModuleTest" time="0.001"/>
+  <testcase name="testGetStudentList()" classname="ModuleTest" time="0.001"/>
+  <testcase name="testSetCourseList()" classname="ModuleTest" time="0.001"/>
+  <testcase name="testSetModuleId()" classname="ModuleTest" time="0.001"/>
+  <testcase name="testGetModuleName()" classname="ModuleTest" time="0.001"/>
+  <testcase name="testGetModuleId()" classname="ModuleTest" time="0.0"/>
+  <testcase name="testSetModuleName()" classname="ModuleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

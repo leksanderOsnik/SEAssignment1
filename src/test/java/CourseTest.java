@@ -21,7 +21,7 @@ public class CourseTest {
     @Test
     public void testSetCourseName() {
         c1.setCourseName("Commerce");
-        Assert.assertEquals(c1.getCourseName(), "CompSci");
+        Assert.assertEquals(c1.getCourseName(), "Commerce");
     }
     @Test
     public void testGetModuleList() {
