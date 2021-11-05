@@ -1,14 +1,26 @@
+import org.joda.time.DateTime;
+import org.joda.time.LocalDate;
+
 import java.util.List;
 
 public class Student {
 
     private String name;
     private int age;
-    private String DOB;
+    private LocalDate DOB;
     private long ID;
     private String username;
     private List<Course> courseList;
     private List<Module> moduleList;
+
+    public Student(String name, int age, LocalDate DOB, long ID, List<Course> courseList, List<Module> moduleList) {
+        this.name = name;
+        this.age = age;
+        this.DOB = DOB;
+        this.ID = ID;
+        this.courseList = courseList;
+        this.moduleList = moduleList;
+    }
 
     public String getName() {
         return name;
@@ -26,11 +38,11 @@ public class Student {
         this.age = age;
     }
 
-    public String getDOB() {
+    public LocalDate getDOB() {
         return DOB;
     }
 
-    public void setDOB(String DOB) {
+    public void setDOB(LocalDate DOB) {
         this.DOB = DOB;
     }
 
@@ -54,9 +66,6 @@ public class Student {
         return courseList;
     }
 
-    public void addCourse(Course course){
-        courseList.add(course);
-    }
 
     public void setCourseList(List<Course> courseList) {
         this.courseList = courseList;
@@ -64,9 +73,6 @@ public class Student {
 
     public List<Module> getModuleList() {
         return moduleList;
-    }
-    public void addModule(Module module){
-        moduleList.add(module);
     }
 
     public void setModuleList(List<Module> moduleList) {
